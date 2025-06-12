@@ -1,5 +1,4 @@
 package com.example.task_tracker.controller;
-
 import java.time.LocalDate;
 import java.util.List;
 
@@ -59,4 +58,5 @@ public class TaskController {
         taskService.delete(id);
         return ResponseEntity.noContent().build();
     }
+
 }
