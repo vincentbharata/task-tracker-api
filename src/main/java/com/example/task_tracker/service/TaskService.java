@@ -21,9 +21,8 @@ public class TaskService {
     }
 
     public Task create(Task task) {
-       userRepo.findById(task.getUserId())
+        userRepo.findById(task.getUserId())
                 .orElseThrow(() -> new RuntimeException("User not found"));
-        // task.setUser(user);
         return taskRepo.save(task);
     }
 

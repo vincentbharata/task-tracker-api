@@ -33,6 +33,8 @@ public class UserController {
         return ResponseEntity.ok(userService.findAll());
     }
 
+    
+
     // @GetMapping("/users/{id}/task-summary")
     // public ResponseEntity<Map<?, Long>> getTaskSummary(@PathVariable Long id) {
     //     User user = userService.findById(id);

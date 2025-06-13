@@ -5,3 +5,4 @@ public enum Status {
     IN_PROGRESS,
     DONE
 }
+//seharusnya buat folder enum tersendiri
