@@ -27,6 +27,8 @@ Aplikasi ini bertujuan membantu pengguna dalam:
 | ------ | -------------------------- | ------------------------------------ |
 | POST   | `/users`                   | Register new user                    |
 | GET    | `/users`                   | List all users                       |
+| GET    | `/users/{id}/task-summary` | Show summary of task count by status |
+
 
 **User Schema (snake_case)**
 
