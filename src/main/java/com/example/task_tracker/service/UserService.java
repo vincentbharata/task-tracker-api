@@ -31,4 +31,5 @@ public class UserService {
   public User findById(Long id) {
     return repo.findById(id).orElseThrow(() -> new RuntimeException("User not found"));
   }
+  
 }

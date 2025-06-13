@@ -30,7 +30,7 @@ public class Task {
     private Status status;
 
     @JsonFormat(pattern = "yyyy-MM-dd")
-    @Column(name = "due_date")
+    @Column(name = "due_date") //Tambahan ke ORM/database
     @JsonProperty("due_date")
     private LocalDate dueDate;
 
